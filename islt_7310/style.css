@@ -2,3 +2,12 @@ body
     h1 {
         color:rgb(21, 21, 234);
     }
+
+section h3 + ul li a {
+        border: none;
+    }
+
+section h3 + p:first-of-type::first-letter {
+        font-size: 150%;
+        color: rgb(153,51,51); 
+}

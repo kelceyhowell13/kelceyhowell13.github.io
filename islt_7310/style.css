@@ -11,3 +11,145 @@ section h3 + p:first-of-type::first-letter {
         font-size: 150%;
         color: rgb(153,51,51); 
 }
+
+header {
+    text-align: center; 
+    display: felx; 
+    justify-content: center; 
+    align-items: center;
+    height: 100px;
+}
+
+.search-box {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.search-box input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.banner-image img {
+    max-width: 150%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* center the image horizontally */
+}
+
+.educator-credentials-title {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    background-color: #666666;
+}
+
+.credentials {
+    text-align: center;
+    flex-basis: 48%;
+    margin: 0 auto;
+    background-color:#ccc;
+}
+
+.philosophy {
+    text-align: center;
+    flex-basis: 48%;
+    margin: 0 auto;
+    background-color:#ccc;
+}
+
+.quote {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.quote-explanation {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+
+    header h1 {
+        text-align: center;
+    }
+
+    .top-navigation ul {
+        text-align: center;
+    }
+
+    .top-navigation li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .top-navigation a {
+        display: block;
+        padding: 10px 0;
+        border: none;
+    }
+
+    .flexbox-section {
+        margin: 10px;
+    }
+
+    .flexbox-section h2 {
+        font-size: 1.5em;
+    }
+
+    .banner-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .credentials,
+    .philosophy {
+        text-align: center; /* Center-align text within the grid sections */
+        margin: 10px; /* Add margin for spacing */
+    }
+
+    .credentials h2,
+    .philosophy h2 {
+        font-size: 1.5em; /* Adjust the font size for section headings */
+    }
+}
+
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
+}
+
+.credentials, .philosophy {
+    text-align: center; 
+}
+
+.credentials h2, .philosophy h2 {
+    font-size: 1.5em; 
+}

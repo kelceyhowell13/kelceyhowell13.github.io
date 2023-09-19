@@ -2,62 +2,81 @@
 <html lang="en-US">
 <head>
                <meta charset="utf-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <link rel="stylesheet" href="style.css">
+               <link rel="stylesheet" href="nav.css">
                <title>Educator Credentials</title>
 </head>
 <body>
-    <nav>
+    
+    <nav class="top-navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="reflection.html">Resources</a></li>
-            <li><a href="#contact.html">Contact</a></li>
-            <li class="dropdown">
+            <li><a href="about.html">Educator Credentials</a></li>
+            <li class="learn-nav">
                 <a href="learn.html">Learn</a>
                 <ul class="dropdown-content">
-                    <li><a href="#resources.html">Resources</a></li>
+                    <li><a href="references.html">Goal 1</a></li>
+                    <li><a href="references.html">Goal 2</a></li>
+                    <li><a href="references.html">Goal 3</a></li>
                 </ul>
             </li>
-
-            <!-- PLACEHOLDERS -->
-            <li><a href="reflection.html">Placeholder</a></li>
-            <li><a href="#contact.html">Placeholder</a></li>
-            <li><a href="learn.html">Placeholder</a></li>
+            <li><a href="references.html">Resources</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
-    
+
     <header>
         <h1>Past to Progress</h1>
     </header>
 
     <main> 
-        <h2> Introduction:</h2>
-    
-        <p>
-            Welcome to the profile of our esteemed educator, Kelcey Howell, a passionate advocate of meaningful learning experiences and innovative pedagogical approaches.
-        </p> 
+        <!--Section 1: Search box-->
+        <section class="flexbox-section search-box">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </section>
         
-        <h3>Credentials:</h3>
-            <p>
-            Bachelor's Degree in History Education; Master's Degree in Learning, Teaching & Curriculum with an Emphasis in Social Studies Education; Learning Technologies & Design Program Certification
-            </p> 
+        <!--Section 2: Website Title - Past to Progress-->
+        <section class="flexbox-section title">
+            <h2>Past to Progress</h2>
+        </section>
         
-            <p><a href="HowellResume.pdf">View My Resume</a></p>
+        <!--Section 3: Banner Image-->
+        <section class="flexbox-section banner-image">
+            <img src="banner.jpg" alt="Banner Image">
+        </section>
 
-        <h4>Teaching Philosophy:</h4>
-        
-        <p>
-            Kelcey Howell is a firm believer that education should be a transformative journey, not just an accumulation of facts. Through a student-centered approach, the content found in Past to Progress will help students foster critical thinking, collaboration, and creative problem-solving. Kelcey Howell’s experience in history education coupled with the latest learning technologies enables her to design immersive and interactive learning experiences that captivate and empower learners.
-        
-        <br> <!-- Adding a blank line here --> 
-        
-        </p> 
+        <!--Section 4: Educator Credentials Title-->
+        <section class="flexbox-section educator-credentials-title">
+            <h2>Educator Credentials</h2>
+        </section>
+
+        <!--Section 5 & 6: Credentials and Philosophy-->
+        <div class="grid-container">
+            <section class="flexbox-section credentials">
+                <h2>Credentials</h2>
+                <p>Bachelor's Degree in History Education; Master's Degree in Learning, Teaching & Curriculum with an Emphasis in Social Studies Education; Learning Technologies & Design Program Certification</p>
+            </section>
+            <section class="flexbox-section philosophy">
+                <h2>Philosophy</h2>
+                <p>Kelcey Howell is a firm believer that education should be a transformative journey, not just an accumulation of facts. Through a student-centered approach, the content found in Past to Progress will help students foster critical thinking, collaboration, and creative problem-solving. Kelcey Howell’s experience in history education coupled with the latest learning technologies enables her to design immersive and interactive learning experiences that captivate and empower learners.</p>
+            </section>
+        </div>
+
+        <!--Section 7: Quote-->
+        <section class="flexbox-section quote">
+            <h2>Quote</h2>
             <blockquote>
                 "Resilience transcends success."
             </blockquote>
-                This guiding quote reflects the commitment to nurturing a <em>resilient</em> and <em>growth-oriented</em> mindset in learners. By encouraging students to embrace challenges, learn from failures, and persevere in the face of adversity, Kelcey Howell creates an environment where <strong>curiosity thrives</strong> and true <strong>learning flourishes</strong>.    
-        
-        <p>Thank you for being a part of this educational journey. We're committed to providing learning that goes beyond the ordinary.</p>
-            
+        </section>
+
+        <!--Section 8: Explanation of Quote-->
+        <section class="flexbox-section quote-explanation">
+            <p>This guiding quote reflects the commitment to nurturing a <em>resilient</em> and <em>growth-oriented</em> mindset in learners. By encouraging students to embrace challenges, learn from failures, and persevere in the face of adversity, Kelcey Howell creates an environment where <strong>curiosity thrives</strong> and true <strong>learning flourishes</strong>.    
+            </p>
+        </section>
     </main>
     
 
@@ -67,6 +86,8 @@
         kah6nb@mail.missouri.edu
         Copyright 2023
     </footer>
+
+
     
 </body>
 </html>

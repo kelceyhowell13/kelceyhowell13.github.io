@@ -3,21 +3,26 @@
 <head>
                <meta charset="utf-8">
                <link rel="stylesheet" href="nav.css">
+               <link rel="stylesheet" href="style.css">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
                <title>Let's Learn</title>
 </head>
 <body>
-    <nav>
+    <nav class="top-navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li class="dropdown">
-                <a href="learn.html">Let's Learn</a>
+            <li><a href="about.html">Educator Credentials</a></li>
+            <li class="learn-nav">
+                <a href="learn.html">Learn</a>
                 <ul class="dropdown-content">
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
+                    <li><a href="learn.html">Goal 1</a></li>
+                    <li><a href="learn.html">Goal 2</a></li>
+                    <li><a href="learn.html">Goal 3</a></li>
                 </ul>
             </li>
+            <li><a href="references.html">Resources</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
 
@@ -26,6 +31,99 @@
     </header>
 
     <main> 
+         <!--Section 1: Search box-->
+         <section class="flexbox-section search-box">
+            <h2 class="sr-only">Search Box Section</h2>
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </section>
+        
+        <!--Section 2: Website Title - Past to Progress-->
+        <section class="flexbox-section title">
+            <h2>Past to Progress</h2>
+        </section>
+        
+        <!--Section 3: Banner Image-->
+        <section class="flexbox-section banner-image">
+            <h2 class="sr-only">Banner Image Section</h2>
+            <img src="banner.jpg" alt="Banner Image">
+        </section>
+
+         <!--Section 4: Let's Learn Title-->
+         <section class="flexbox-section lets-learn">
+            <h2>Let's Learn!</h2>
+        </section>
+
+        <section class="flexbox-section">
+            <h2 class="sr-only">Let's Learn</h2>
+            <table>
+                <tr>
+                    <th>Goals</th>
+                    <th>Content</th>
+                </tr>
+                <tr>
+                        <td>Goal 1: Analyzing Key Turning Points and Their Consequences (focused on the American Revolution)</td>
+                    <td>
+                        <p>Dive into the pivotal moments that shaped the Revolutionary War while spotlighting the transformative influence of the French alliance. Immerse yourself in the complexities of war strategy, diplomacy, and international partnerships that redefined the course of history. Explore events preceding and succeeding the French alliance, dissecting their consequences on the war effort, American resolve, and British strategy. Uncover how the alliance, marked by the Treaty of Alliance (1778), catalyzed a dynamic shift in power dynamics, military tactics, and diplomatic landscape. Through immersive learning content, primary source analysis, and comparison essays, grasp the intricate interplay between strategic decisions, alliances, and game-changing events that paved the road to American independence.</p>
+                        <p>Artifact: The French Alliance in the Revolutionary War: This historical document symbolizes a critical turning point during the American Revolution. This primary source artifact demonstrates how international diplomacy and alliances played a crucial role in shaping the outcome of the Revolutionary War.</p>
+                        <p>
+                            <a href="https://memory.loc.gov/cgi-bin/ampage?collId=lljc&fileName=011%2Flljc011.db&recNum=34" target="_blank">Primary Source: French Alliance</a>
+                        </p> 
+                        <p>
+                            <a href="https://www.youtube.com/watch?v=fYcTI8rmpHw&list=PPSV" target="_blank">Youtube Video: Yorktown - The French Alliance</a>
+                        </p>
+                       
+                        <ul>
+                            <li>Formative Assessment Instructions: Impact Analysis Comparison Essay</li>
+                            <ul>
+                                <li>Select Two Turning Points: Choose two significant turning points in the Revolutionary War. One should be an event before the French alliance, and the other should be an event after the alliance was formed.</li>
+                                <li>Analyze Impacts: For each turning point, write an impact analysis. Discuss the consequences of the event on the war effort, the American cause, and the British forces. Consider the strategic, military, and diplomatic implications.</li>
+                                <li>French Alliance Impact: In a separate section, compare and contrast the impact of the French alliance on both turning points. Analyze how the alliance affected the outcomes of these events and the broader course of the Revolutionary War.</li>
+                                <li>Conclusion: Reflect on the significance of the French alliance as a pivotal factor in shaping the turning points of the Revolutionary War. Summarize the overall impact of the alliance on the war's outcome and the trajectory of the United States.</li>
+                            </ul>
+                        </ul>
+                           
+                    </td>
+                </tr>
+                <tr>
+                    <td>Goal 2: Exploring Social and Cultural Changes Over Time:</td>
+                    <td>
+                        <p>Through the lens of social studies, learners should explore how societal norms, values, and cultural expressions have evolved from Colonial America to the Reconstruction era. By studying shifts in gender roles, class dynamics, religious beliefs, and artistic trends, learners can uncover the factors that have influenced the nation's cultural landscape.</p>
+                        <p>Artifact: Political Cartoons from Different Eras: Political cartoons provide a visual representation of societal attitudes, norms, and cultural shifts. Learners can analyze cartoons to understand how issues such as women's suffrage, urbanization, immigration, and industrialization were portrayed and debated.</p>
+                        <p>
+                            <a href="https://www.google.com/url?q=https://firstamendmentmuseum.org/exhibits/virtual-exhibits/art-politics-300-years-of-political-cartoons/political-cartoons-part-3-1850-1900/&sa=D&source=docs&ust=1695572574536862&usg=AOvVaw2nnK-LKBm4738UmzuTH30t" target="_blank">Primary Source: Political Cartoons Through the Years</a>
+                        </p>
+                        <ul>
+                            <li>Formative Assessment Idea: Visual Analysis and Comparison</li>
+                            <ul>
+                                <li>Provide learners with a selection of political cartoons from different time periods (see artifact). Ask them to choose two cartoons and create a visual analysis that highlights the social and cultural themes depicted. Have them discuss similarities, differences, and the underlying messages.</li>
+                            </ul>
+                        </ul>
+                    
+                    </td>
+                </tr>
+                    <td>Goal 3: Examining Continuities and Discontinuities in Governance and Democracy:</td>
+                    <td>
+                        <p>Learners should aim to grasp the evolution of democratic principles, governmental structures, and the struggle for equal rights. By analyzing the ways in which institutions adapted, transformed, or resisted change over time, learners can gain a deeper appreciation for the ongoing pursuit of justice, representation, and civic engagement.</p>
+                        <p>Artifact: The Federalist Papers
+                        These essays, written by Alexander Hamilton, James Madison, and John Jay, offer insights into the debates surrounding the adoption of the U.S. Constitution. Learners can examine the arguments presented in these papers and consider their relevance to contemporary discussions about government and democracy.</p>
+                        <p>
+                            <a href="https://guides.loc.gov/federalist-papers/full-text" target="_blank">Primary Source: The Federalist Papers - Library of Congress</a>
+                        </p>
+                        <p>
+                            <a href="https://www.youtube.com/watch?v=kzMdSG89DeI" target="_blank">Youtube: The Federalist Papers & James Madison</a>
+                        </p>
+                        <ul>
+                            <li>Formative Assessment Idea: Debate and Position Paper</li>
+                            <ul>
+                                <li>Divide learners into groups and assign each group a specific Federalist Paper. Have them analyze the arguments presented and engage in a structured debate where they defend the viewpoints of the authors. After the debate, ask each student to write a position paper summarizing their understanding of the paper and its relevance today.</li>
+                            </ul>
+                        </ul>
+                    
+                    </td>
+            </table>
+        </section>
+        
 
     </main>
     

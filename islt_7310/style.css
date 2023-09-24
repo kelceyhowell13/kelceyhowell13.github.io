@@ -156,6 +156,26 @@ header {
     }
 }
 
+/* Apply responsive styles for smaller screens */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+    th, td {
+        padding: 5px;
+        font-size: 14px; /* Adjust font size as needed */
+    }
+    /* Hide specific columns on smaller screens */
+    .hide-on-mobile {
+        display: none;
+    }
+    /* Enable horizontal scrolling for wide tables */
+    .table-container {
+        overflow-x: auto;
+    }
+}
+
+
     .credentials,
     .philosophy {
         text-align: center; /* Center-align text within the grid sections */

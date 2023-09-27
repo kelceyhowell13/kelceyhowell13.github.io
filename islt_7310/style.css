@@ -323,3 +323,9 @@ h1 {
         page-break-inside: avoid; /* Avoid page breaks inside this container */
     }
 }
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif; /* Specify the font family */
+    font-weight: 700; /* Use the 700 weight for bold */
+    color: #000; /* Make the font color black */
+}

@@ -301,24 +301,25 @@ h1 {
 @media print {
     /* Define print styles here */
 
-    /* Set all fonts to black */
     body, h1, p, ul, ol, blockquote, footer {
         color: black;
     }
 
-    /* Use a serif font (you can replace 'serif' with your preferred serif font family) */
     body, h1, p, ul, ol, blockquote, footer {
         font-family: serif;
     }
 
-    /* Specify font for h1 and make it bold */
     h1 {
         font-family: 'Roboto Condensed', sans-serif; /* Your custom font */
         font-weight: 700;
     }
 
-    /* Adjust printable margins to be 1" on all sides */
     body {
         margin: 1in;
+    }
+
+     .content-container {
+        width: 100%; /* Adjust as needed to fit within a single page */
+        page-break-inside: avoid; /* Avoid page breaks inside this container */
     }
 }

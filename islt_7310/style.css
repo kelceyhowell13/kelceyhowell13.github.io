@@ -353,8 +353,19 @@ footer {
   }
 
   footer {
-    background-image: url("images/footerback.jpeg"); 
+    background-image: url("footerback.jpeg"); 
     background-size: 400px 400px; /* Adjust the background image size to cover the entire footer */
     background-position: center; /* Center the background image */
     color: black; /* Text color on the background image */
   }
+
+  video {
+    width: 100%; /* Set the width to 100% to make it responsive */
+    max-width: 650px; /* Set a maximum width, adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure it behaves as a block-level element */
+    margin: 0 auto; /* Center horizontally */
+    border: 1px solid #ccc; /* Add a border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow */
+    background-color: #f9f9f9; /* Background color */
+}

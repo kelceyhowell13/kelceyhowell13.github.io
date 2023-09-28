@@ -329,3 +329,32 @@ h1 {
     font-weight: 700; /* Use the 700 weight for bold */
     color: #000; /* Make the font color black */
 }
+
+/* CSS for the phone icon */
+footer img:first-child {
+    width: 20px; /* Adjust the width to make it smaller or larger */
+    height: 20px; /* Adjust the height proportionally if needed */
+}
+
+/* CSS for the email icon */
+footer img:last-child {
+    width: 20px; /* Adjust the width to make it smaller or larger */
+    height: 20px; /* Adjust the height proportionally if needed */
+}
+
+footer {
+    display: block;
+    text-align: left; /* Center-align the content */
+}
+
+/* Remove bullet points for the specific list with class "no-bullets" */
+.no-bullets {
+    list-style: none;
+  }
+
+  footer {
+    background-image: url("images/footerback.jpeg"); 
+    background-size: 400px 400px; /* Adjust the background image size to cover the entire footer */
+    background-position: center; /* Center the background image */
+    color: black; /* Text color on the background image */
+  }

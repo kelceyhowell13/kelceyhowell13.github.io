@@ -347,10 +347,9 @@ footer {
     text-align: left; /* Center-align the content */
 }
 
-/* Remove bullet points for the specific list with class "no-bullets" */
 .no-bullets {
     list-style: none;
-  }
+}
 
   footer {
     background-image: url("footerback.jpeg"); 
@@ -371,3 +370,14 @@ footer {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow */
     background-color: #f9f9f9; 
 }
+
+/* Hover effect for footer icons */
+footer ul.no-bullets li img {
+    transition: transform 0.2s; /* Add a smooth transition effect */
+}
+
+/* Enlarge the icons on hover */
+footer ul.no-bullets li img:hover {
+    transform: scale(2.1); /* Increase the scale (size) by 10% */
+}
+

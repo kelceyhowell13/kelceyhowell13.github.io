@@ -176,13 +176,13 @@ header {
 }
 
 
-    .credentials,
+.credentials,
     .philosophy {
         text-align: center; /* Center-align text within the grid sections */
         margin: 10px; /* Add margin for spacing */
-    }
+}
 
-    .credentials h2,
+.credentials h2,
     .philosophy h2 {
         font-size: 1.5em; /* Adjust the font size for section headings */
     }
@@ -381,3 +381,37 @@ footer ul.no-bullets li img:hover {
     transform: scale(2.1); /* Increase the scale (size) by 10% */
 }
 
+/* CSS for hiding/showing content */
+.goal-content {
+    display: none;
+}
+
+.goal-header {
+    cursor: pointer;
+}
+
+.goal-header:hover + .goal-content {
+    display: block;
+}
+
+/* Default styles for larger screens */
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Media query for tablets (portrait and landscape) */
+@media (max-width: 768px) {
+    .icon-container {
+        flex-direction: column; /* Stack icons vertically on tablets */
+        align-items: center; /* Center-align icons */
+    }
+}
+
+/* Media query for mobile phones (portrait) */
+@media (max-width: 480px) {
+    .icon-container {
+        flex-direction: column; /* Stack icons vertically on mobile phones */
+        align-items: center; /* Center-align icons */
+    }
+}

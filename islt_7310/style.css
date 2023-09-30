@@ -415,3 +415,10 @@ footer ul.no-bullets li img:hover {
         align-items: center; /* Center-align icons */
     }
 }
+
+@media screen and (max-width: 768px) {
+    .table-row {
+        display: block; /* Stack elements vertically */
+        margin-bottom: 20px; /* Add some spacing between rows */
+    }
+}

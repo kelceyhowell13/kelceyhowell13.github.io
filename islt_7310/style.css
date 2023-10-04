@@ -408,6 +408,11 @@ footer ul.no-bullets li img:hover {
     }
 }
 
+@media screen and (max-width: 600px) {
+    table {
+        font-size: 14px;
+    }
+
 /* Media query for mobile phones (portrait) */
 @media (max-width: 480px) {
     .icon-container {
@@ -422,12 +427,6 @@ footer ul.no-bullets li img:hover {
         margin-bottom: 20px; /* Add some spacing between rows */
     }
 }
-
-img {
-    max-width: 100%; /* Ensure the image fits its container */
-    border: 2px solid #ccc; /* Add a border to the image */
-}
-
 
 a {
     text-decoration: none; 
@@ -444,8 +443,60 @@ img {
 
 .centered-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
-    height: 20vh; /* This ensures the container takes the full viewport height */
+    height: 20vh;
 }
+
+/* Add a border around the table */
+table {
+    width: 100%;
+    border: 2px solid #333;
+    border-collapse: collapse;
+}
+
+/* Style the table caption */
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 5px;
+}
+
+/* Color the first and last row */
+tbody tr:first-child,
+tbody tr:last-child {
+    background-color: #f0f0f0;
+}
+
+/* Use structural pseudo-classes to format the data rows with alternate colors */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Make the table accessible (visually hidden) */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Make the table responsive */
+@media screen and (max-width: 600px) {
+    table {
+        font-size: 14px;
+    }
+}
+
+
+
+

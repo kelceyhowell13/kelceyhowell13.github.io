@@ -486,12 +486,12 @@ tr:nth-child(odd) {
 /* Style the first and last rows */
 tr:first-child {
     background-color:lightcoral; /* First row background color */
-    color: #fff; /* Text color for first row */
+    color: black; /* Text color for first row */
 }
 
 tr:last-child {
     background-color:lightcoral; /* Last row background color */
-    color: #fff; /* Text color for last row */
+    color: black; /* Text color for last row */
 }
 
 /* Style the table cells */

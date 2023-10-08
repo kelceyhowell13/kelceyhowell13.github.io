@@ -453,7 +453,7 @@ img {
 /* Add a border around the table */
 table {
     width: 100%;
-    border: 2px solid red;
+    border: 2px solid blue;
     border-collapse: collapse;
 }
 
@@ -485,12 +485,12 @@ tr:nth-child(odd) {
 
 /* Style the first and last rows */
 tr:first-child {
-    background-color: #007bff; /* First row background color */
+    background-color: red; /* First row background color */
     color: #fff; /* Text color for first row */
 }
 
 tr:last-child {
-    background-color: #007bff; /* Last row background color */
+    background-color: red; /* Last row background color */
     color: #fff; /* Text color for last row */
 }
 

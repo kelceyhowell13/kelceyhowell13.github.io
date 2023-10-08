@@ -480,7 +480,7 @@ tr:nth-child(even) {
 }
 
 tr:nth-child(odd) {
-    background-color: #fff; /* Alternate row color */
+    background-color: #b6b5b5; /* Alternate row color */
 }
 
 /* Style the first and last rows */

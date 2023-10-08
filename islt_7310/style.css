@@ -431,7 +431,7 @@ footer ul.no-bullets li img:hover {
 
 a {
     text-decoration: none; 
-    color:white; 
+    color:blue; 
     padding: 0px; 
     margin-top: 0;
 }
@@ -453,7 +453,7 @@ img {
 /* Add a border around the table */
 table {
     width: 100%;
-    border: 2px solid blue;
+    border: 2px solid rgb(16, 16, 251);
     border-collapse: collapse;
 }
 

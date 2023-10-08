@@ -127,6 +127,7 @@ header {
         max-width: 100%;
         height: auto;
     }
+}
 
 /* For screens smaller than 480px (small mobile) */
 @media (max-width: 480px) {
@@ -175,7 +176,6 @@ header {
     }
 }
 
-
 .credentials,
     .philosophy {
         text-align: center; /* Center-align text within the grid sections */
@@ -185,8 +185,8 @@ header {
 .credentials h2,
     .philosophy h2 {
         font-size: 1.5em; /* Adjust the font size for section headings */
-    }
 }
+
 
 footer {
     background-color: #f8f8f8;
@@ -412,6 +412,7 @@ footer ul.no-bullets li img:hover {
     table {
         font-size: 14px;
     }
+}
 
 /* Media query for mobile phones (portrait) */
 @media (max-width: 480px) {
@@ -567,5 +568,4 @@ textarea {
         max-width: 100%;
     }
 }
-
 

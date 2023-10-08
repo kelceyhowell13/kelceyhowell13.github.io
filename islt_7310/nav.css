@@ -49,6 +49,10 @@
     display: block; /* Show the dropdown content on hover */
 }
 
+.dropdown-content:hover {
+    display:block;
+}
+
 /* Style for the links inside the dropdown */
 .dropdown-content li {
     display: block;

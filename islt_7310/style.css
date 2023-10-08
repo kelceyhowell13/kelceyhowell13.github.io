@@ -485,12 +485,12 @@ tr:nth-child(odd) {
 
 /* Style the first and last rows */
 tr:first-child {
-    background-color: red; /* First row background color */
+    background-color:lightcoral; /* First row background color */
     color: #fff; /* Text color for first row */
 }
 
 tr:last-child {
-    background-color: red; /* Last row background color */
+    background-color:lightcoral; /* Last row background color */
     color: #fff; /* Text color for last row */
 }
 

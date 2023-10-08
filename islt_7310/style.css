@@ -468,7 +468,7 @@ caption {
 }
 
 th {
-    background-color: #f4f4f4; /* Header background color */
+    background-color: blue; /* Header background color */
     font-weight: bold;
     text-align: left;
     padding: 8px;
